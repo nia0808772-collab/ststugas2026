@@ -1,0 +1,26 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Stok Gudang Sederhana</title>
+</head>
+  <link rel="stylesheet" href="style.css">
+<body>
+<div class="container">
+   <!-- semua isi program -->
+<h2>Stok Gudang Sederhana</h2>
+
+<input type="text" id="namaBarang" placeholder="Masukkan Nama Barang"><br><br>
+<input type="number" id="stokBarang" placeholder="Jumlah Stok"><br><br>
+
+<button onclick="tambahBarang()">Tambah ke Gudang</button>
+<button onclick="hapusTerakhir()">Hapus Data Terakhir</button>
+<button onclick="kosongkanGudang()">Kosongkan Gudang</button>
+
+<h3>Daftar Barang:</h3>
+<ul id="daftarBarang"></ul>
+
+<p id="totalBarang">Total Seluruh Barang: 0</p>
+     <a href="./menu.html">back</a>
+</div>
+
+ <script src="stokgudang.js"></script>

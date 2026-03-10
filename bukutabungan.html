@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Buku Tabungan Siswa</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Buku Tabungan Siswa</h2>
+
+<input type="number" id="setoran" placeholder="Masukkan nominal setoran (Rp)">
+
+<button onclick="tambahSetoran()">Tambah Setoran</button>
+<button onclick="hapusTerakhir()">Hapus Setoran Terakhir</button>
+<button onclick="resetTabungan()">Reset Buku Tabungan</button>
+<ul id="riwayat"></ul>
+
+<p id="bonus"></p>
+
+<p id="saldo">saldo bersih : Rp</p>
+     <a href="./menu.html">back</a>
+</div>
+
+<script src="tabungansiswa.js"></script>
+
+</body>
+</html>
